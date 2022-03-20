@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 100%;
+  display: block;
+  -webkit-text-size-adjust: 0% !important;
+  overflow-x: hidden;
+}
+.header {
+  background: url("./headback.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 95vh;
+  margin-top: 5vh;
+}
+.title {
+  color: white;
+  text-align: center;
+  font-size: 5rem;
+  width: 100vw;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.75);
+  margin-top: 1rem;
+}
+.text {
+  margin-top: 5rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 1rem;
+  font-size: 2rem;
+}
